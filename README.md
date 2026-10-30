@@ -45,7 +45,7 @@ AutoGen v0.4+ transitions from legacy sequential loops to an asynchronous, messa
 ├── 04_tools_and_functions/
 │   ├── basic_tools.py           # Registering standard Python functions as agent tools
 │   └── custom_tools.py          # Type-annotated custom tools with docstring schemas
-├── .env.example
+├── env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -90,7 +90,7 @@ python -m pip install -r requirements.txt
 Copy the example environment template and add your credentials:
 
 ```bash
-cp .env.example .env
+cp env.example .env
 ```
 
 Set your key inside `.env`:
